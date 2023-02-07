@@ -40,22 +40,6 @@ button:focus {
   outline: 4px dashed darkorange;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px) {
-  .btn {
-    visibility: visible;
-    border: 8px dashed blue;
-    margin: 12px 12px;
-  }
-}
-@media screen and (max-device-width: 500px) {
-  body {
-    transform: scale(500px);
-  }
-}
-.card p{
-  margin: 10px;
-}
-
 .buttons{
   display: block;
  }
